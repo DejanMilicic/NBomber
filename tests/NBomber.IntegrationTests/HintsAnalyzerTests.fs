@@ -36,7 +36,7 @@ let baseScnStats = {
 let baseStepStats = {
     StepName = "step"; RequestCount = 0; OkCount = 0; FailCount = 0
     Min = 0; Mean = 0; Max = 0; RPS = 0
-    Percent50 = 0; Percent75 = 0; Percent95 = 0; Percent99 = 0; StdDev = 0
+    Percent50 = 0; Percent75 = 0; Percent90 = 0; Percent95 = 0; Percent99 = 0; StdDev = 0
     MinDataKb = 0.0; MeanDataKb = 0.0; MaxDataKb = 0.0; AllDataMB = 0.0
     ErrorStats = Array.empty
 }

@@ -1,4 +1,4 @@
-﻿namespace NBomber.Contracts
+namespace NBomber.Contracts
 
 open System
 open System.Data
@@ -76,8 +76,9 @@ type StepStats = {
     RPS: int
     Percent50: int
     Percent75: int
+    Percent90: int
     Percent95: int
-    Percent99: int
+    Percent99: int // 99.000% 99.900% 99.990% 99.999% 100.000%
     StdDev: int
     MinDataKb: float
     MeanDataKb: float

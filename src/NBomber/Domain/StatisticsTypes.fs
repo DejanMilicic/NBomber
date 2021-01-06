@@ -1,4 +1,4 @@
-﻿module internal NBomber.Domain.StatisticsTypes
+module internal NBomber.Domain.StatisticsTypes
 
 open System
 
@@ -35,6 +35,7 @@ type RawStepStats = {
     Max: Latency
     Percent50: Latency
     Percent75: Latency
+    Percent90: Latency
     Percent95: Latency
     Percent99: Latency
     StdDev: int
